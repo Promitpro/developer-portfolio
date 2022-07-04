@@ -1,0 +1,38 @@
+body{
+    /*font-family: 'Gulzar', serif;*/
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+}
+section{
+    display: flex;
+    background-image: url(images/top-banner.png);
+    background-repeat: no-repeat;
+}
+.btn{
+    text-decoration: none;
+    background-image: linear-gradient(orange, tomato);
+    padding: 10px 40px;
+    font-weight: bolder;
+    color: white;
+    border-radius: 5%;
+
+}
+span{
+    color: darkorange;
+}
+.demon{
+    width: 50%;
+    padding: 40px 60px;
+    line-height: 45px;
+    margin-left: 30px;
+}
+.demon img{
+    width: 100%;
+}
+.demon h1{
+    font-size: 50px;
+    line-height: 55px;
+}
+.demon p{
+    line-height: 25px;
+}
